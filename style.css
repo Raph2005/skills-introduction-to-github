@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #Eff0f0;
+}
+
+h1 {
+	text-align: center;
+	border: 2px solid brown;
+	padding: 5px;
+	background-color: #412315;
+	color: white;
+}
+
+.container {
+	background-color: #EEE1D5;
+	margin-bottom: 50px;
+	border: 2px solid #EEE1D5;
+	border-radius: 40px;
+}
+
+.item {
+	border-bottom: 2px solid #DDB892;
+	list-style: none;
+}
+
+.item-price {
+  text-align: right;
+  float: up
+}
+
+h2 {
+  margin-left: 50px;
+}
+
+.item-name .item-quantity {
+  display: flex;
+  justify-content: center;
+}
